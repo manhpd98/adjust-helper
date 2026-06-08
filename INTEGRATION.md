@@ -81,13 +81,13 @@ Adjust được nối vào AdMob ở chỗ: **mỗi lần ad sinh doanh thu (onP
 dependencies:
   flutter_ads:
     git:
-      url: https://x-access-token:<GITHUB_PAT_READONLY>@github.com/manhpd98/flutter_ads.git
+      url: https://github.com/manhpd98/flutter_ads.git
       ref: 1.0.0
   shared_preferences: ^2.2.2   # AdjustUtil cần
 ```
 
-> `<GITHUB_PAT_READONLY>`: tạo fine-grained token (Contents: Read-only, chỉ repo `flutter_ads`) tại
-> https://github.com/settings/personal-access-tokens/new. Chi tiết xem README của flutter_ads.
+> `flutter_ads` là repo **public** → không cần token. (Nếu sau này để private thì thêm token vào URL:
+> `https://x-access-token:<PAT>@github.com/...`, token tạo tại https://github.com/settings/personal-access-tokens/new.)
 
 ### 3.2 Android — Adjust (`adjust-helper`, public qua JitPack)
 
