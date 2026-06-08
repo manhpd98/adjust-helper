@@ -12,9 +12,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.adjust.helper.AdjustBridge
-import com.adjust.helper.model.AdOptions
-import com.adjust.helper.model.FullAdsOption
+import com.manhpd98.adjust_helper.AdjustBridge
+import com.manhpd98.adjust_helper.model.AdOptions
+import com.manhpd98.adjust_helper.model.FullAdsOption
 import com.example.adjust.ui.theme.AdjustTheme
 
 class MainActivity : ComponentActivity() {

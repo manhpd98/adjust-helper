@@ -1,4 +1,4 @@
-package com.adjust.helper
+package com.manhpd98.adjust_helper
 
 import android.content.Context
 import com.google.android.gms.ads.identifier.AdvertisingIdClient

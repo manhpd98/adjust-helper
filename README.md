@@ -10,12 +10,12 @@ MethodChannel `com.adjust.sdk/api`. Self-hosted.
 maven { url 'https://jitpack.io' }
 
 // android/app/build.gradle — dependencies:
-implementation 'com.github.manhpd98:adjust-helper:1.0.0'
+implementation 'com.github.manhpd98:adjust-helper:1.0.1'
 ```
 
 ## Nội dung
 
-- Module thư viện: **`adjust-kit`** (package `com.adjust.helper`)
+- Module thư viện: **`adjust-kit`** (package `com.manhpd98.adjust_helper`)
 - `AdjustChannel` xử lý channel `com.adjust.sdk/api`: `initSdk`, `trackEvent`,
   `trackAdRevenue`, `trackImpressionEvent`, `trackSubscriptionRevenue`,
   `trackTotalIapRevenue`, `isInitialized`

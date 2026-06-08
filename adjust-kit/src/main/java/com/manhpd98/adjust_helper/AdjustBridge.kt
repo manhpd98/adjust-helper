@@ -1,12 +1,12 @@
-package com.adjust.helper
+package com.manhpd98.adjust_helper
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
 import androidx.core.content.edit
-import com.adjust.helper.model.AdOptions
-import com.adjust.helper.model.FullAdsOption
-import com.adjust.helper.model.IapOptions
+import com.manhpd98.adjust_helper.model.AdOptions
+import com.manhpd98.adjust_helper.model.FullAdsOption
+import com.manhpd98.adjust_helper.model.IapOptions
 import com.adjust.sdk.Adjust
 import com.adjust.sdk.AdjustAdRevenue
 import com.adjust.sdk.AdjustAttribution

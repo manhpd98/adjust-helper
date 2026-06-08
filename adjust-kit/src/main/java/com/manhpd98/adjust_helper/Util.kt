@@ -1,4 +1,4 @@
-package com.adjust.helper
+package com.manhpd98.adjust_helper
 
 import com.adjust.sdk.AdjustEvent
 

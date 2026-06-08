@@ -1,4 +1,4 @@
-package com.adjust.helper.model
+package com.manhpd98.adjust_helper.model
 
 typealias FullAdCallback = (
     isFullAds: Boolean,

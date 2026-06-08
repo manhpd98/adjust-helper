@@ -1,11 +1,11 @@
-package com.adjust.helper
+package com.manhpd98.adjust_helper
 
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
-import com.adjust.helper.model.AdOptions
-import com.adjust.helper.model.FullAdsOption
-import com.adjust.helper.model.IapOptions
+import com.manhpd98.adjust_helper.model.AdOptions
+import com.manhpd98.adjust_helper.model.FullAdsOption
+import com.manhpd98.adjust_helper.model.IapOptions
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel

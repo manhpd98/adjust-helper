@@ -21,6 +21,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Adjust"
+rootProject.name = "adjust-helper"
 include(":app")
 include(":adjust-kit")

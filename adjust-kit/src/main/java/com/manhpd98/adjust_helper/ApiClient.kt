@@ -1,7 +1,7 @@
-package com.adjust.helper
+package com.manhpd98.adjust_helper
 
 import android.util.Log
-import com.adjust.helper.model.AdjustDeviceResponse
+import com.manhpd98.adjust_helper.model.AdjustDeviceResponse
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject
