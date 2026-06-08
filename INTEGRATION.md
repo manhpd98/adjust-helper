@@ -86,8 +86,11 @@ dependencies:
   shared_preferences: ^2.2.2   # AdjustUtil cần
 ```
 
-> `flutter_ads` là repo **public** → không cần token. (Nếu sau này để private thì thêm token vào URL:
-> `https://x-access-token:<PAT>@github.com/...`, token tạo tại https://github.com/settings/personal-access-tokens/new.)
+> `flutter_ads` là repo **private** → cần **quyền đọc**. Cách dùng:
+> - **Khuyên dùng:** được chủ repo mời làm collaborator → `gh auth login` (hoặc git credential keychain) → giữ URL sạch như trên, không nhúng token.
+> - **Hoặc** nhúng token đọc vào URL: `https://x-access-token:<PAT>@github.com/manhpd98/flutter_ads.git`
+>   (token fine-grained, Contents: Read-only, tạo tại https://github.com/settings/personal-access-tokens/new).
+>   ⚠️ Token nhúng sẽ bị commit — **đừng** đẩy lên repo/doc public (GitHub secret-scanning sẽ thu hồi token).
 
 ### 3.2 Android — Adjust (`adjust-helper`, public qua JitPack)
 
